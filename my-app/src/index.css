@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.medicen{
+  height: auto;
+}
+.search-crypto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  position: relative;
+}
+.search-container input {
+  width: 740px;
+  height: 50px;
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #b1abab;
+  border-radius: 40px;
+  outline: none;
+  padding-left: 40px;
+  box-shadow: 0 0 4px 1px rgba(98, 148, 197, 0.5);
+}
+.price-from {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: right; 
+
+}
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(0, 127, 255, 0.5);
+}
+.search-text {
+  position: absolute;
+  left: 300px;
+  color: #2b0ece;
+  padding-left: 350px;
+  padding-top: 7px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.search-text:hover {
+  color: #0bbcf2;
+  font-size: 24px;
+}
+  
+  
+  .medicen-card-container{
+    min-height: 65vh !important;
+    
+    
+}
+.medicen-card{
+   margin-left: 278px;
+    min-width: 750px;
+    min-height: 250px;
+    
+}
+
+.gradient-card {
+  position: relative;
+  height: 200px;
+  background-color: #d5e3e7;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px 4px rgba(193, 214, 236, 0.5);
+
+}
+.selected-option {
+  font-weight: bold;
+  color: #333;
+}
+
+.no-stores-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: 120px;
+  max-width: 200px; 
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.gradient-card button {
+  background-color: whitesmoke;
+  border: 2px solid black; 
+  color: rgb(12, 1, 1);
+  padding: 10px 20px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: auto;
+}
+
+.price {
+  padding-left: 50px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 10px; 
+  transform: translateY(-50%);
+  
+}
+.selected-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px; 
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
